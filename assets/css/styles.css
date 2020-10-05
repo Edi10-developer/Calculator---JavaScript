@@ -10,6 +10,7 @@
 
 body{
     background: linear-gradient(to right, #00AAFF, #00FF6C);
+    padding: 30px;
     /*background-color: #091921; */
 }
 
@@ -35,8 +36,24 @@ body{
     background-color: rgba(255, 255, 255, .90);
 }
 
-.span-two{
+.span-two {
     grid-column: span 2;
+}
+
+.clear{
+    background: orange !important;
+}
+
+.clear:hover{
+    background: rgba(255, 217, 0, 0.979) !important;
+}
+
+.equals{
+    background: rgb(153, 255, 0, .5) !important;
+}
+
+.equals:hover{
+    background: rgb(153, 255, 0, .9) !important;
 }
 
 .output{
